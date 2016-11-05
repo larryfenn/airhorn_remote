@@ -11,7 +11,7 @@ namespace Airhorn {
       while (true) {
         Socket client = listener.AcceptSocket();
         Console.WriteLine("Received");
-        SendKeys.SendWait("A");
+        SendKeys.SendWait("S");
         client.Close();
       }
     }
